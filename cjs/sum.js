@@ -1,11 +1,8 @@
-function sum(a, b) {
-  return a + b;
+function sum (a, b) {
+  return a + b
 }
 
-module.exports = sum;  // Export the sum function
-
+// CommonJS Module Export
 module.exports = {
-    sum // Export the sum function
+  sum
 }
-// Path: sum.test.js
-const sum = require('./sum');   // Import the sum function  

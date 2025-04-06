@@ -9,3 +9,14 @@ console.log(substract(1, 2)); // -1    // Call the substract function
 console.log(multiply(1, 2)); // 2    // Call the multiply function      
 console.log(divide(1, 2)); // 0.5    // Call the divide function
 console.log(divide(1, 0)); // Error: No se puede dividir por cero    // Call the divide function    // Call the divide function
+export function sum (a, b) {
+    return a + b
+  }
+  
+  export function sub (a, b) {
+    return a - b
+  }
+  
+  export function mult (a, b) {
+    return a * b
+  }
